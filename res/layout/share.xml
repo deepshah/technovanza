@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg3"
+    >
+    <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/image_logo"
+                android:onClick="home"
+                android:src="@drawable/title_bar" />
+    
+    <RelativeLayout
+        android:layout_below="@id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000">
+        
+    <TextView  
+        android:id="@+id/textView1"
+        android:background="#90000000"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="@string/text1"
+       	android:layout_alignParentTop="true"
+       	android:textSize="18dip"
+        android:textStyle="bold"
+        android:textColor="@color/green_base"
+        />     
+    <EditText 
+        android:id="@+id/txtPhoneNo"
+        android:layout_marginTop="40dip"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1" 
+        android:inputType="phone"       
+        />
+      <Button 
+        android:id="@+id/SelectContact"
+        style="@style/main_menu"
+        android:layout_below="@id/txtPhoneNo"
+        android:background="@drawable/green_menu_button"
+        android:layout_width="160dip"         
+        android:layout_height="40dip"
+ 		android:layout_gravity="center"
+        android:layout_marginTop="40dip"
+        android:text="@string/text2" />    
+        
+        <Button 
+        android:id="@+id/btnSendSMS"
+        style="@style/main_menu"
+        android:layout_gravity="center"  
+        android:layout_marginTop="40dip"
+        android:background="@drawable/green_menu_button"
+        android:layout_width="160dip" 
+        android:layout_height="40dip"
+        android:layout_below="@id/SelectContact"
+        android:text="@string/text3"
+        />    
+        </RelativeLayout>
+</RelativeLayout>

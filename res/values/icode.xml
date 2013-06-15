@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="crazy">Crazy for coding. Participate and see how crazy an event can get.
+In this event use your c knowledge to solve given problem. Terms and conditions apply.</string>
+
+<string name="sql">Entity, relationships, constraints, tuples, queries.Sounds familiar.You think you have the knack to work with databases
+Be ready to do all you can, right from answering simple questions to executing complex queries.
+
+Participate in mission Sql Join the Tables.Press the Trigger.and Fire the Queries!</string>
+<string name="crypt">Cryptext is an online event. Each round will have number of encrypted texts. Identify encoding
+method for given cipher text and decode the message to find the answer.</string>
+
+ <string name="techathlon">Techathlon is team event consisting of two participants per team. Various clues would
+be located at different locations in our campus which need to be solved so as to unlock
+a file which would lead you to the next location. The team who successfully completes
+the event first would be the winner.
+
+So put on your thinking shoes and come be a part of this amazing race of the coding
+world!</string> 
+<string name="ultimate">Keep your concentration levels high as the beast is here. The stakes are huge as
+we present to you the ultimate coding competition. Get ready to sustain the most
+challenging situations where in concentration and smartness would be the only defense.</string>
+ 
+<string name="Cway">If you think you are an ultimate C programmer then this is exactly the event that you
+are looking for. This event gives all the C/C++ programmers a platform to showcase
+their coding skills. C is the most basic language taught to any computer student. C-way
+will give participants an excellent opportunity to evaluate their C/C++ coding skills and
+competing with others will be a pleasant experience. Participants would be tested on
+grounds of programming, debugging, and efficiency. So, if you want to test your C/C++
+coding skills, then C-way is just the right way!!!!</string>
+<string name="codeSwap">Code swap is an event which tests your skills of java and C along with your team work!
+Understanding your partner is the key in solving this challenge that involves a lot of
+swapping.
+So do you think you and your partner can live up to our challenge?</string>
+<string name="Java">Itâ€™s not simply the Java in your Cup; itâ€™s how you prepare it that makes it worth
+consuming. Any modern day software is developed using object oriented language
+especially java because of the â€œWrite once, Run anywhereâ€� architecture and its number
+of attractive and powerful features.
+
+Javatars, apply your java skills, compete with the bests and be the next Java Guru.</string>
+<string name="codex">Do you think you can code in any language? Yes! â€œCode in Xâ€� is for you!
+
+In this event you need to write programs in any given language. Each round will have different
+language. All the necessary information about the language and its compiler will be given by us.
+
+So, be ready to show the world you can â€œCode in Xâ€�!</string>
+<string name="algo">
+    The true phase of programming lies in defining Algorithms to break through a given
+problem statement. So put on your thinking hat, and get ready!
+â€œAccept the challenges so that you may feel the exhilaration of victoryâ€�
+</string>
+<string name="WebM">
+    Calling all wizards of the web! This is the place where birds of the same feather will
+flock together and only one will be crowned as the â€˜Phoenixâ€™.
+To participate in this event, make a team of not more than four and develop a web
+application of given SRS in provided time frame. So, gear up for the â€˜Star Eventâ€™ of
+iCode and walk away with loads of prizes as the winners.
+Weâ€™ll be putting up the SRS and the rules soon, so spread the word and watch this
+space!
+</string>
+</resources>

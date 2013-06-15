@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/bg3"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme">
+<ScrollView
+	android:id="@+id/widget36"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/imageView1"
+	android:layout_alignParentLeft="true">
+<LinearLayout
+	android:id="@+id/widget42"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"	
+	android:orientation="vertical">
+<TextView
+	android:id="@+id/tv"
+	style="@style/event_menu"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+    android:text="hello"
+    android:background="#90000000"
+    android:textColor="@color/green_base"/>
+<Button
+	android:id="@+id/register"
+	android:layout_width="160dip"
+	style="@style/main_menu"
+	android:layout_gravity="center_horizontal"
+	android:layout_marginTop="15dp"
+    android:background="@drawable/green_menu_button"
+	android:text="Register" />
+</LinearLayout>
+</ScrollView>
+ <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="mainpage"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/image_logo"
+                android:src="@drawable/title_bar" />
+</RelativeLayout>

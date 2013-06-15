@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@drawable/bg3"
+    android:theme="@style/AppTheme" >
+	
+	<ScrollView
+	android:id="@+id/scroll1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/imageView1"
+    android:scrollbars="vertical">
+
+    <TableLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/title_bar"
+            android:contentDescription="@string/image_logo"
+            android:onClick="mainpage" />
+        
+        <TableRow
+            android:id="@+id/table_category1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:padding="5dip"
+            android:layout_marginTop="-20dip" >
+            
+            <Button 
+            android:id="@+id/code"
+            android:text="@string/label_icode"
+            android:drawableTop="@drawable/icode"
+            android:layout_width="110dip"
+            android:layout_height="110dip"
+            android:onClick="onClick"
+            android:background="@drawable/green_category_button"
+            android:textColor="@color/green_base"
+            style="@style/event_menu" />
+            
+             <Button 
+            android:id="@+id/autobots"
+            android:text="@string/label_robotics"
+            android:drawableTop="@drawable/autobots"
+            android:layout_width="110dip"
+            android:onClick="onClick"
+            android:layout_height="110dip" 
+            android:layout_marginLeft="40dip"
+            android:background="@drawable/green_category_button"
+            android:textColor="@color/green_base"
+            style="@style/event_menu" />
+   </TableRow>
+   
+        <TableRow
+            android:id="@+id/table_category2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:padding="5dip" >
+            
+            <Button 
+            android:id="@+id/manageria"
+            android:text="@string/label_manageria"
+            android:drawableTop="@drawable/manageria"
+            android:layout_width="110dip"
+            style="@style/event_menu"
+            android:layout_height="110dip"
+            android:onClick="onClick"
+            android:textColor="@color/green_base" 
+            android:background="@drawable/green_category_button" />
+            
+             <Button 
+            android:text="@string/label_eureka"
+            android:drawableTop="@drawable/eureka"
+            android:layout_width="110dip"
+            android:id="@+id/eureka"
+            style="@style/event_menu"
+            android:onClick="onClick"
+            android:textColor="@color/green_base"
+            android:layout_height="110dip" 
+            android:layout_marginLeft="40dip"
+            android:background="@drawable/green_category_button" />
+   </TableRow>
+   
+        <TableRow
+            android:id="@+id/table_category3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:padding="5dip" >
+            
+            <Button 
+            android:text="@string/label_imech"
+            android:drawableTop="@drawable/imech"
+            android:layout_width="110dip"
+            android:onClick="onClick"
+            android:id="@+id/imech"
+            style="@style/event_menu"
+            android:textColor="@color/green_base"
+            android:layout_height="110dip"
+            android:background="@drawable/green_category_button" />
+            
+             <Button 
+            android:text="@string/label_ibuild"
+            android:drawableTop="@drawable/ibuild"
+            android:layout_width="110dip"
+            android:onClick="onClick"
+            android:id="@+id/ibuild"
+            android:textColor="@color/green_base"
+            android:layout_height="110dip" 
+            android:layout_marginLeft="40dip"
+            style="@style/event_menu"
+            android:background="@drawable/green_category_button"  />
+   </TableRow>
+   <TableRow
+            android:id="@+id/table_category4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:padding="5dip" >
+            
+            <Button 
+            android:id="@+id/conference"
+            android:text="@string/label_conf"
+            android:drawableTop="@drawable/viwanda3"
+            android:layout_width="110dip"
+            android:layout_height="110dip"
+            android:onClick="onClick"
+            android:background="@drawable/green_category_button"
+            android:textColor="@color/green_base"
+            style="@style/event_menu" />
+            
+             <Button 
+            android:id="@+id/impulse"
+            android:text="@string/label_impulse"
+            android:drawableTop="@drawable/impulse"
+            android:layout_width="110dip"
+            android:onClick="onClick"
+            android:layout_height="110dip" 
+            android:layout_marginLeft="40dip"
+            android:background="@drawable/green_category_button"
+            android:textColor="@color/green_base"
+            style="@style/event_menu" />	
+   </TableRow>
+
+</TableLayout>
+</ScrollView>
+  <RelativeLayout
+            android:id="@+id/linearLayoutWithLotofContent1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/scroll1">
+        </RelativeLayout>
+ </RelativeLayout>
+    

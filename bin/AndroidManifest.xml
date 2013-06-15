@@ -1,0 +1,95 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mumbai.VJTI.Technovanza"
+    android:installLocation="preferExternal"
+    android:versionCode="4"
+    android:versionName="3.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:background="@color/background"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".LastScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SMSTestActivity" >
+        </activity>
+        <activity android:name=".EventsCategory" >
+        </activity>
+        <activity android:name=".Category" >
+        </activity>
+        <activity android:name=".Updates" >
+        </activity>
+        <activity android:name=".EventName" >
+        </activity>
+        <activity android:name=".PhotoGallery" >
+        </activity>
+        <activity android:name=".Did_you_know" >
+        </activity>
+        <activity android:name=".Register" >
+        </activity>
+        <activity android:name=".Login" >
+        </activity>
+        <activity android:name=".Myst" >
+        </activity>
+        <activity android:name=".RSSReader" >
+        </activity>
+                <activity android:name=".Leaderboard" >            
+        </activity>
+        <activity android:name=".Rules" >
+        </activity>
+        <activity android:name=".Quest" >
+        </activity>
+
+        <receiver android:name="mumbai.VJTI.Technovanza.ServiceTestActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="mumbai.VJTI.Technovanza.GetUpdates" />
+
+
+    </application>
+
+</manifest>

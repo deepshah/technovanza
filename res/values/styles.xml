@@ -1,0 +1,40 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Black" >
+        
+        
+        </style>
+        <style name="main_menu">
+            <item name="android:windowTitleSize">44dip</item>
+            <item name="android:layout_width">220dip</item>
+    		<item name="android:layout_height">40dip</item>
+    		<item name="android:shadowColor">#ffffff</item>  
+        	<item name="android:shadowRadius">2</item>  
+        	<item name="android:shadowDx">2</item>  
+        	<item name="android:shadowDy">2</item>
+        	<item name="android:layout_centerHorizontal">true</item>
+    		<item name="android:layout_gravity">center</item>
+   			<item name="android:textSize">18dip</item>
+    		<item name="android:textStyle">bold</item>
+    		<item name="android:typeface">serif</item>
+    		<!-- <item name="android:textColor">#17540C</item> -->
+    		
+        </style>
+         <style name="quiz_menu">
+    		<item name="android:shadowColor">#ffffff</item>  
+        	<item name="android:shadowRadius">2</item>  
+        	<item name="android:shadowDx">2</item>  
+        	<item name="android:shadowDy">2</item>
+   			<item name="android:textSize">18dip</item>
+    		<item name="android:textStyle">bold</item>
+    		<item name="android:typeface">serif</item>
+    		</style>
+    		
+         <style name="event_menu">
+            <item name="android:textSize">18dip</item>
+    		<item name="android:textStyle">bold</item>
+    		<item name="android:typeface">serif</item>
+             
+         </style>
+
+</resources>

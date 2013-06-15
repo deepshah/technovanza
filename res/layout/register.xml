@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@drawable/bg3"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme" >
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"   
+        android:src="@drawable/title_bar"
+        android:contentDescription="@string/image_logo"
+        android:onClick="home" 
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        />
+<ScrollView
+	android:id="@+id/widget36"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/imageView1"
+	android:layout_alignParentLeft="true">
+<LinearLayout
+	android:id="@+id/widget42"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"	
+	android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="32dp"
+        android:text="@string/register"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:hint="@string/name"
+        android:inputType="text" />
+    
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:hint="@string/username"
+        android:inputType="text" />
+    
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_below="@+id/editText6"
+        android:hint="@string/email"
+        android:inputType="text|textEmailAddress" />
+    
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:hint="@string/password"
+        android:inputType="text|textPassword" />
+    
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText9"
+        android:layout_below="@+id/editText9"
+        android:hint="@string/mobile"
+        android:inputType="number|text" />
+    
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_below="@+id/editText3"
+        android:hint="@string/college"
+        android:inputType="text" />
+    
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_below="@+id/editText4"
+        android:hint="@string/course"
+        android:inputType="text" />
+    
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_below="@+id/editText5"
+        android:hint="@string/city"
+        android:inputType="text" />
+    
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText7"
+        android:layout_below="@+id/editText7"
+        android:hint="@string/gender"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_alignLeft="@id/editText1"
+        android:layout_below="@id/editText5"
+        android:textColor="#FFFFFF"
+        android:textSize="18dip" />
+    
+    <Button
+        android:id="@+id/button1"
+        style="@style/main_menu"
+        android:background="@drawable/green_menu_button"
+        android:layout_alignParentLeft="true"
+        android:layout_width="100dip"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="30dip"
+        android:text="@string/register"
+        
+       /> 
+  </LinearLayout>
+  </ScrollView>
+    </RelativeLayout>

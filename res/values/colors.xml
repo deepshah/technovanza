@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white_background">#ffffff</color>
+    <color name="green_base">#75c26e</color>
+    <color name="green_stroke">#97d21b</color>
+    <color name="green_gradientS">#276e1b</color>
+    <color name="green_gradientE">#62d73a</color>
+    <!-- <color name="green_gradientS">#278B16</color>
+    <color name="green_gradientE">#62d73a</color>-->
+    <color name="background">#ffffff</color>
+    <color name="green">#00ff00</color>
+    
+</resources>

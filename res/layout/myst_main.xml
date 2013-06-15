@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@drawable/bg3"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="home"
+        android:contentDescription="@string/image_logo"
+        android:src="@drawable/title_bar" />
+<ScrollView
+	android:id="@+id/widget36"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/imageView1"
+	android:layout_alignParentLeft="true">
+<LinearLayout
+	android:id="@+id/widget42"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"	
+	android:orientation="vertical">
+    
+    <TextView
+		android:id="@+id/tv"
+		style="@style/event_menu"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	    android:background="#90000000"
+	    android:textColor="@color/green_base"/>
+
+    <Button
+        style="@style/quiz_menu"
+        android:id="@+id/rules"
+        android:layout_width="160dip"
+        android:layout_height="40dip"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/rules" 
+        android:background="@drawable/green_menu_button"
+        android:textColor="#000000"
+        android:layout_marginTop="20dip"
+        />
+
+    <Button
+        style="@style/quiz_menu"
+        android:id="@+id/question"
+        android:layout_width="160dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="40dip"
+        android:background="@drawable/green_menu_button"
+        android:layout_marginTop="40dp"
+        android:textColor="#000000"
+        android:text="@string/play"
+        />
+
+    <Button
+        style="@style/quiz_menu"
+        android:id="@+id/board"
+        android:layout_width="160dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="40dip"
+        android:background="@drawable/green_menu_button"
+         android:textColor="#000000"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dip"
+        android:text="@string/leaderboard"
+        />
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>

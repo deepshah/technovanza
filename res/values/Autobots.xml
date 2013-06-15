@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+ <string name="Robowars">War brings destruction, war brings death but for the one
+who shall witness it, it shall be a Roman royal experience.
+To hear their applause you have to go mindless without
+fear, beat the thrill and be ready for the kill.
+
+Witness the experience of hell in a cell at Technovanza 13!
+Robowars brought up in an enormous size this time to feel
+the fight between robots meant for destruction.</string>
+    
+ 
+ <string name="Technoolympics">A 3 way mega-event, consisting of 3 separate events
+altogether where you can use the same bots with some
+or no addition and modification on the bot allowing a
+participant to participate in all 3 events individually which
+tests different aspects of the bot thus having 3 different
+winners and also the techno-Olympics 3-way event winner
+award. The 3 events are Monster Arena, Cable Crane and
+RoboPirates.
+So come with one single adaptable robot and win exciting
+prizes from 3 different events!</string>
+
+<string name="MonsterArena">As said, The one who is ahead of time is always that wins.
+But all of us know the reason why it is difficult to complete things on
+time. Reason-obstacles.
+
+This is an opportunity to show how fast your bot is and your problem
+solving skills for overcoming all the obstructions stopping you from
+being on time to finish the track and thus being the winner!</string>
+
+ <string name="CableCrane">This being the 2nd event consists of a different problem statement
+from the others. Here your bot has to carry a set of goods. It faces a
+different kind of a problem here. The goods cannot be carried by the
+bot in a specific area due to specific reasons. But for help, a rope is
+provided to carry goods from one place to another. So an extra pick-
+up and rope traversing mechanism has to be made to carry good
+through the rope. In the meanwhile your bot takes a long route to
+pick up the goods. If the bot does not reach in time, line followers ie
+thief bots might steal your goods. So hurry up!</string>
+
+ <string name="RoboPirates">Construct a remote controlled bot, which can traverse on both land
+and water. Think of different designs that will matter to complete the
+task mentioned in the problem statements. Come and surprise how
+evolved and effective your design can be! This can also be achieved
+by modifying the monster arena bot.</string>
+
+ <string name="SplitSecond">Come, build an IC engine car to complete and win by driving
+through an all terrain track with sharp turns and big jumps. In
+this competition both speed and control will matter. The car
+should be able to cross bumps, jumps and other obstacles on
+the track and outdo the opponents\' car while maintaining its
+stability and not compromising on its pace. Get Set Go!</string>
+
+ <string name="WallE">The event consisting of creating intelligent bots that will follow
+commands given by the arena directly, which will be automated
+itself.
+The bot has to follow the directions given in forms of line following,
+light following and wall following altogether. The bot that follows
+these instructions in minimum time i.e. the one which is most
+efficiently coded will be given the name of Wall-e.</string>
+
+ <string name="MasterOfPuppets">Play god by making your bot a puppet controlled merely your hand
+gestures. Fulfill your fantasy of having the best bot depicting the
+fictional stuff portrayed in movies like Magneto in X-men and The
+force� Star-Wars. The bot will have to perform a task responding only
+to the positions of your palm.</string>
+
+ <string name="Vertigo">The enemy kingdom kidnaps the princess of our kingdom. We are
+having a team of soldiers who will be of help for the leader to fight
+against them, sadly our kingdom doesnt have a king.
+So we are in search of that person to lead and get the queen back to
+her castle and that person will be known as the king of the kingdom.
+
+So you being the aspirant to be the king should be able to make a
+controlled mechanism to lift objects from a height to the ground in
+this test for speed, accuracy and precision.</string>
+
+</resources>

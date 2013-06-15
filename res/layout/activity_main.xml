@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@drawable/bg3"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme" xmlns:android1="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:scrollbars="vertical" >
+
+        <RelativeLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme"
+            android1:background="@drawable/bg3" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/image_logo"
+                android:src="@drawable/title_bar" />
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/main_menu"
+                android:layout_below="@id/imageView1"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/green_menu_button"
+                android:text="@string/label_events" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/main_menu"
+                android:layout_below="@id/button1"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/green_menu_button"
+                android:text="@string/register" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/main_menu"
+                android:layout_below="@id/button2"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/green_menu_button"
+                android:text="@string/label_didyouknow" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/main_menu"
+                android:layout_below="@+id/button3"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/green_menu_button"
+                android:text="Myst !!" />
+            
+            <Button
+                android:id="@+id/button4"
+                style="@style/main_menu"
+                android:layout_below="@id/button8"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/green_menu_button"
+                android:text="@string/label_updates" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/main_menu"
+                android:layout_below="@+id/button7"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/green_menu_button"
+                android:text="@string/label_gallery" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/main_menu"
+                android:layout_below="@+id/button5"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/green_menu_button"
+                android:text="@string/label_share" />
+            
+            <Button
+                android:id="@+id/button7"
+                style="@style/main_menu"
+                android:layout_below="@+id/button4"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/green_menu_button"
+                android:text="Tech Updates !" />
+            
+        </RelativeLayout>
+    
+    </ScrollView>
+    
+ </RelativeLayout>
+    
+

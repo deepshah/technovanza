@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+ <string name="Aquabooster">Want to build your own mini rocket launcher? AquaBooster provides you with an
+opportunity to design and construct your very own hydro-powered rocket booster. An exhilarating
+event requiring participants to create a powerful and effective rocket propeller within a specified
+time constraint such that the judging criterion is based on the longest distance travelled.
+
+Gear up and implement the legendary Newtons Third Law of Motion in actuality with AquaBooster.
+Nevertheless power up your basics of aerodynamics and minimize the air resistance offered to
+the flight of the missile. If you�re innovative enough then go ahead and plant a safety measure to
+prevent accidental launches in your AquaBooster!
+
+And remember the key to speed and acceleration lies in the amount of water filled into the plastic
+bottle so that the pressure of the air pumped in must be able to thrust the water down and out of
+the spout, driving the bottle�s flight into space.</string> 
+
+ <string name="Armageddon">Heard of mechanical robotic arms made of motors, servos, wires..? Well we won�t require all that!
+Armageddon is an event for making a mechanical arm using syringes and broken rulers!
+
+What we�re looking at is robotic arms based on hydraulic systems built completely from scrap
+that can match the functionality of industrial level grades. The arm should be able to lift and place
+objects of different sizes and weights at certain places. The team with the most efficient arm in
+terms of its load carrying capacity, grip and ease of lift wins.
+
+Time to revise your Pascal�s Laws on fluid mechanics and design effective arms with correctly placed
+joints for swift and balanced movements of your Armageddon!</string>
+ 
+
+ <string name="Catapult">Played Angry Birds, right? This event here based on projectile shooting is nothing less than
+an adaptation of the famous game. In this event you have to build a catapult i.e. launcher which can
+throw or shoot a tennis ball up to certain length. The aim of the event is to test how precisely a
+participant can give an impulse to the ball so that it hits the given target accurately.
+
+In this event the catapult will have to destroy the enemy\'s castle made of thermocol. The
+winner will be decided by number of shoots and accuracy of the catapult. Think smart and design an
+out of the box system to strike at the best possible rate with amazing strength and hit rates.</string>
+
+ <string name="Kinetize">Reflecting on the aeon with no electricity, solar power, batteries, hydro-power, thermal
+energy, nuclear plants, there was a time where machinery was driven by pure mechanics!
+Converting stored potential energy to kinetic was the only way to automate machines.
+
+Kinetize is purely a mechanical event. In this event you have to build a machine to satisfy the
+problem statement given and the machine should be working only on mechanical energy. You can
+use springs, elastics or any other form of potential energy to drive the equipment for accomplishing
+the requisite task. Great designs and accurate calculations are what matter in this ultimate
+mechanical event!</string> 
+
+
+
+    
+</resources>
